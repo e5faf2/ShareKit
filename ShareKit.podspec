@@ -41,7 +41,7 @@ evernote.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' 
 
   s.subspec 'Facebook' do |facebook|
     facebook.source_files   = 'Classes/ShareKit/Sharers/Services/Facebook/**/*.{h,m}'
-    facebook.dependency 'Facebook-iOS-SDK', '~> 3.0'
+    facebook.dependency 'Facebook-iOS-SDK', '~> 4.1.0'
     facebook.dependency 'ShareKit/Core'
   end
 
